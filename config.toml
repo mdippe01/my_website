@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://mariusmfa2021.netlify.app"
+baseURL = "https://mariusdippemfa2021.netlify.app"
 languageCode = "en-us"
 title = "Marius"
 theme = "forty"
