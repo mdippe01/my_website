@@ -81,9 +81,9 @@ theme = "forty"
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Hi, my name is Marius"
-    subtitle = "This is my own website!"
-    #buttonText = "Get Started"
+    title = "This is the official webiste of Marius Dippe"
+    subtitle = "See below some more information on myself"
+    buttonText = "Let's have a look!"
 
 
   # Tiles Section
@@ -98,22 +98,22 @@ theme = "forty"
       url = "blogs/aliquam"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
+      title = "My latest Project in R-Studio"
+      subtitle = "Of course done with some help from my great study group ;)"
       image = "pic02.jpg"
       url = "blogs/tempus"
 
-    [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
-      image = "pic03.jpg"
-      url = "blogs/magna"
+    #[[params.tiles.showcase]]
+    #  title = "Magna"
+    #  subtitle = "Lorem Etiam Nullam"
+    #  image = "pic03.jpg"
+    #  url = "blogs/magna"
 
-    [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
-      image = "pic04.jpg"
-      url = "blogs/ipsum"
+    #[[params.tiles.showcase]]
+    #  title = "Ipsum"
+    #  subtitle = "Nisl Sed Aliquam"
+    #  image = "pic04.jpg"
+    #  url = "blogs/ipsum"
 
     #[[params.tiles.showcase]]
     #  title = "Consequat"
@@ -138,14 +138,10 @@ theme = "forty"
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
-    url = "blogs"
+    title = "Thats it!"
+    subtitle = """In case you are interested to learn more about me, please feel free to reach out either via mail or any other channel that is convenient for you!"""
+    #buttonText = "Get Started"
+    #url = "blogs"
 
 
   # Contact section
@@ -187,7 +183,7 @@ theme = "forty"
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "Marius Constantin Dippe, MFA21"
 
     # Uses font awesome icons
     [[params.footer.social]]
@@ -205,10 +201,10 @@ theme = "forty"
       url= "https://www.instagram.com/mariusdippe/"
       label = "Instagram"
     
-#    [[params.footer.social]]
-#      icon = "fa-github"
-#      url= "https://www.github.com"
-#      label = "GitHub"
+    [[params.footer.social]]
+      icon = "fa-github"
+      url= "https://www.github.com/mdippe01/"
+      label = "GitHub"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
