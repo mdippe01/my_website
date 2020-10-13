@@ -37,9 +37,10 @@ theme = "forty"
 
   # Navigation Section
   [params.navigation]
-    title = "Forty"
-    subtitle = "By HTML5 Up"
+    title = "Marius"
+    subtitle = "This is my own website!"
     menu = "Menu"
+    logo = "logo.png"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
 
