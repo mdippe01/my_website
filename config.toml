@@ -46,10 +46,14 @@ theme = "forty"
     [[params.navigation.links]]
       name = "Who I Am"
       url = "blogs/whoiam"
+      
+    [[params.navigation.links]]
+      name = "Curriculum Vitae"
+      url = "blogs/CV"  
 
     [[params.navigation.links]]
       name = "R-Studio Project"
-      url = "#"
+      url = "blogs/RStudio"
 
 #    [[params.navigation.links]]
 #      name = "Generic Blog"
@@ -94,20 +98,20 @@ theme = "forty"
     [[params.tiles.showcase]]
       title = "Who I am"
       subtitle = "(Outside of Uni)"
-      image = "who.jpg"
+      image = "who.jpeg"
       url = "blogs/whoiam"
-
-    [[params.tiles.showcase]]
-      title = "My latest Project in R-Studio"
-      subtitle = "Of course done with some help from my great study group ;)"
-      image = "pic02.jpg"
-      url = "blogs/RStudio"
 
     [[params.tiles.showcase]]
       title = "Curriculum Vitae"
       subtitle = "Education and Professional Experience"
       image = "pic01.jpg"
       url = "blogs/CV"
+      
+      [[params.tiles.showcase]]
+      title = "My latest Project in R-Studio"
+      subtitle = "Of course done with some help from my great study group ;)"
+      image = "pic02.jpg"
+      url = "blogs/RStudio"
 
     #[[params.tiles.showcase]]
     #  title = "Ipsum"
