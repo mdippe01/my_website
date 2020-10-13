@@ -93,8 +93,8 @@ theme = "forty"
     
     [[params.tiles.showcase]]
       title = "Who I am"
-      subtitle = "Some Top Level Info about Myself!"
-      image = "pic01.jpg"
+      subtitle = "(Outside of Uni)"
+      image = "who.jpg"
       url = "blogs/whoiam"
 
     [[params.tiles.showcase]]
@@ -103,11 +103,11 @@ theme = "forty"
       image = "pic02.jpg"
       url = "blogs/RStudio"
 
-    #[[params.tiles.showcase]]
-    #  title = "Magna"
-    #  subtitle = "Lorem Etiam Nullam"
-    #  image = "pic03.jpg"
-    #  url = "blogs/magna"
+    [[params.tiles.showcase]]
+      title = "Curriculum Vitae"
+      subtitle = "Education and Professional Experience"
+      image = "pic01.jpg"
+      url = "blogs/CV"
 
     #[[params.tiles.showcase]]
     #  title = "Ipsum"
