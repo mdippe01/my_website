@@ -44,12 +44,12 @@ theme = "forty"
     # logo = "logo.png"
 
     [[params.navigation.links]]
-      name = "Homework 1"
+      name = "Curriculum Vitae"
       url = "#"
 
     [[params.navigation.links]]
-      name = "Homework 2"
-      url = "blogs"
+      name = "R-Studio Project"
+      url = "#"
 
 #    [[params.navigation.links]]
 #      name = "Generic Blog"
@@ -95,13 +95,13 @@ theme = "forty"
       title = "Curriculum Vitae"
       subtitle = "Let's have a look at my professional and educational experience!"
       image = "pic01.jpg"
-      url = "blogs/aliquam"
+      url = "blogs/RStudio"
 
     [[params.tiles.showcase]]
       title = "My latest Project in R-Studio"
       subtitle = "Of course done with some help from my great study group ;)"
       image = "pic02.jpg"
-      url = "blogs/tempus"
+      url = "blogs/CV"
 
     #[[params.tiles.showcase]]
     #  title = "Magna"
