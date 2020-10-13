@@ -83,8 +83,7 @@ theme = "forty"
     # the 'static/img' folder.
     title = "Hi, my name is Marius"
     subtitle = "This is my own website!"
-    picture = "logo.png"
-    buttonText = "Get Started"
+    #buttonText = "Get Started"
 
 
   # Tiles Section
@@ -93,8 +92,8 @@ theme = "forty"
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "Curriculum Vitae"
+      subtitle = "Let's have a look at my professional and educational experience!"
       image = "pic01.jpg"
       url = "blogs/aliquam"
 
@@ -116,17 +115,17 @@ theme = "forty"
       image = "pic04.jpg"
       url = "blogs/ipsum"
 
-    [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic05.jpg"
-      url = "blogs/ipsum"
+    #[[params.tiles.showcase]]
+    #  title = "Consequat"
+    #  subtitle = "Ipsum Dolor Sit Amet"
+    #  image = "pic05.jpg"
+    #  url = "blogs/ipsum"
 
-    [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
-      image = "pic06.jpg"
-      url = "blogs/ipsum"
+    #[[params.tiles.showcase]]
+    #  title = "Etiam"
+    #  subtitle = "Feugiat Amet Tempus"
+    #  image = "pic06.jpg"
+    #  url = "blogs/ipsum"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
