@@ -52,12 +52,12 @@ theme = "forty"
       url = "blogs/CV"  
 
     [[params.navigation.links]]
-      name = "R-Studio Project"
+      name = "R-Studio"
       url = "blogs/RStudio"
 
-#    [[params.navigation.links]]
-#      name = "Generic Blog"
-#      url = "blogs/ipsum"
+    [[params.navigation.links]]
+      name = "Placeholder"
+      url = "#"
 
 #    [[params.navigation.links]]
 #      name = "Elements"
@@ -113,11 +113,11 @@ theme = "forty"
       image = "pic02.jpg"
       url = "blogs/RStudio"
 
-    #[[params.tiles.showcase]]
-    #  title = "Ipsum"
-    #  subtitle = "Nisl Sed Aliquam"
-    #  image = "pic04.jpg"
-    #  url = "blogs/ipsum"
+    [[params.tiles.showcase]]
+      title = "Placeholder"
+      subtitle = "This is still being worked on!"
+      image = "#"
+      url = "#"
 
     #[[params.tiles.showcase]]
     #  title = "Consequat"
