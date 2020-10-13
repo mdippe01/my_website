@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "https://mariusdippemfa2021.netlify.app"
 languageCode = "en-us"
-title = "Project Webiste of Marius Dippe"
+title = "Website of Marius Dippe"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -85,7 +85,7 @@ theme = "forty"
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "This is the official webiste of Marius Dippe"
+    title = "Marius Dippe, MFA21 at London Business School"
     subtitle = "See below some more information on myself"
     buttonText = "Let's have a look!"
 
