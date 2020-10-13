@@ -1,8 +1,8 @@
 # Site settings
 baseURL = "https://mariusdippemfa2021.netlify.app"
 languageCode = "en-us"
-title = "Marius"
-theme = "Marius"
+title = "Project Webiste of Marius Dippe"
+theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
 # googleAnalytics = ""
@@ -23,8 +23,8 @@ theme = "Marius"
   description = "MFA21 Student"
 
   # Link custom assets relative to /static
-  custom_css = []
-  custom_js  = []
+  # custom_css = []
+  # custom_js  = []
   favicon    = "favicon.ico"
 
   # Just a custom image variable, please define it in .md files for content.
