@@ -44,8 +44,8 @@ theme = "forty"
     # logo = "logo.png"
 
     [[params.navigation.links]]
-      name = "Curriculum Vitae"
-      url = "#"
+      name = "Who I Am"
+      url = "blogs/whoiam"
 
     [[params.navigation.links]]
       name = "R-Studio Project"
@@ -92,16 +92,16 @@ theme = "forty"
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Curriculum Vitae"
-      subtitle = "Let's have a look at my professional and educational experience!"
+      title = "Who I am"
+      subtitle = "Some Top Level Info about Myself!"
       image = "pic01.jpg"
-      url = "blogs/RStudio"
+      url = "blogs/whoiam"
 
     [[params.tiles.showcase]]
       title = "My latest Project in R-Studio"
       subtitle = "Of course done with some help from my great study group ;)"
       image = "pic02.jpg"
-      url = "blogs/CV"
+      url = "blogs/RStudio"
 
     #[[params.tiles.showcase]]
     #  title = "Magna"
@@ -140,7 +140,7 @@ theme = "forty"
     enable = true
     title = "Thats it!"
     subtitle = """In case you are interested to learn more about me, please feel free to reach out either via mail or any other channel that is convenient for you!"""
-    #buttonText = "Get Started"
+    buttonText = "Back to Top!"
     #url = "blogs"
 
 
