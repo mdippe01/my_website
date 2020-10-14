@@ -85,7 +85,7 @@ theme = "forty"
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Marius Dippe, MFA21 at LBS"
+    title = "Marius Dippe - MFA21 @ LBS"
     subtitle = "See below some more information on myself"
     buttonText = "Let's have a look!"
 
@@ -165,7 +165,7 @@ theme = "forty"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    formEmail = "mdippe.mfa21@london.edu"
+    formEmail = "mdippe.mfa2021@london.edu"
 
     # Contact Section
     # You can add multiple emails, phone numbers, or addresses
