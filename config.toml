@@ -56,8 +56,8 @@ theme = "forty"
       url = "blogs/RStudio"
 
     [[params.navigation.links]]
-      name = "Placeholder"
-      url = "#"
+      name = "Half Marathon"
+      url = "blogs/marathon"
 
 #    [[params.navigation.links]]
 #      name = "Elements"
@@ -114,10 +114,10 @@ theme = "forty"
       url = "blogs/RStudio"
 
     [[params.tiles.showcase]]
-      title = "Placeholder"
-      subtitle = "This is still being worked on!"
-      image = "#"
-      url = "#"
+      title = "Half Marathon"
+      subtitle = "I almost collapsed but i made it!"
+      image = "blogs/marathon.jpeg"
+      url = "blogs/marathon"
 
     #[[params.tiles.showcase]]
     #  title = "Consequat"
