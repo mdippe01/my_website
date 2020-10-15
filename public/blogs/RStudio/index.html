@@ -55,6 +55,8 @@
                 <li><a href="/blogs/whoiam">Who I Am</a></li>
             
                 <li><a href="/blogs/CV">Curriculum Vitae</a></li>
+                
+                <li><a href="/blogs/marathon">Half Marathon</a></li>
             
         </ul>
     </nav>
@@ -110,7 +112,7 @@ glimpse(approval_polllist)</code></pre>
 
 <div id="create-a-plot" class="section level2">
 <h2>Average Trump Approval Rate over Time</h2>
-<p>What I would like you to do is to calculate the average net approval rate (approve- disapprove) for each week since he got into office. I want you plot the net approval, along with its 95% confidence interval. There are various dates given for each poll, please use <code>enddate</code>, i.e., the date the poll ended.</p>
+<p>Using the code below, we created an illustration of how the 95% confidence intervals for president Donald J. Trump developed between 2016 and today.</p>
 <pre class="r"><code>approval_polllist %&gt;%
   mutate(net_approval_rate = approve - disapprove,
          date = mdy(enddate),
@@ -144,7 +146,9 @@ glimpse(approval_polllist)</code></pre>
  <span class="image main"><img src="/img/blogs/Trump2.png" alt="" /></span>
 </div>
 <div id="compare-confidence-intervals" class="section level2">
-<h2>Comparing the Confidence Intervals</h2>
+<h2>Fidings</h2>
+
+<p>The charts conveys a lot of interesting messages and if we trace back some of the president's actions over his legislative period, we can examine how the public reacted to his decisions. Having a closer look at the confidence intervals of week 15 and week 34 in 2020, we find some interesting observations.</p>
 
 <p>In week 15 of 2020, the mean net approval rate is -7.1 with 95% CI interval -8.21 and -5.99, while in week 34, the mean net approval rate is -10.91 with 95% CI interval -13.49 and -8.34. The mean net approval rate is lower and the confidence interval is wider in week 34, meaning that more people disapproved Trump in week 34 than week 15. One plausible explanation is that as the economy recovers from the covid-19 lockdown, more and more Americans disapprove Trump’s covid measures and policies as they see second spike in covid-19 cases during the summer in the US.</p>
 </div>
