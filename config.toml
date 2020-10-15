@@ -116,7 +116,7 @@ theme = "forty"
     [[params.tiles.showcase]]
       title = "Half Marathon"
       subtitle = "I almost collapsed but i made it!"
-      image = "blogs/marathon.jpeg"
+      image = "marathon.jpeg"
       url = "blogs/marathon"
 
     #[[params.tiles.showcase]]
